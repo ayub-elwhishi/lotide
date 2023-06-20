@@ -7,3 +7,5 @@ function assertArraysEqual(arr1, arr2) {
 		console.log ("Assertion failed, arrays unequal.")
 	}
 }
+
+module.exports = assertArraysEqual
