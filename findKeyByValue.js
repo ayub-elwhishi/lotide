@@ -1,11 +1,11 @@
 const assertEqual = require('./assertEqual.js');
 
 const findKeyByValue = (obj, val) => {
-	for (item in obj) if (obj[item] == val) return item;
-	return undefined
-}
+  for (item in obj) if (obj[item] == val) return item;
+  return undefined;
+};
 
-const bestTVShowsByGenre = { 
+const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
   drama:  "The Wire"

@@ -1,13 +1,12 @@
 function middle(arr) {
-	if (arr.length < 3) return []
+  if (arr.length < 3) return [];
 
-	const half = Math.floor(arr.length / 2)
-	if (arr.length % 2) {
-		return[arr[half]]
-	}
-	else {
-		return[arr[half - 1], arr[half]]
-	}
+  const half = Math.floor(arr.length / 2);
+  if (arr.length % 2) {
+    return [arr[half]];
+  } else {
+    return [arr[half - 1], arr[half]];
+  }
 }
 
 /*
