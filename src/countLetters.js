@@ -12,6 +12,4 @@ const countLetters = (str) => {
   return result;
 };
 
-
-console.log(countLetters("Hello, my name is Ayub"));
-
+module.exports = countLetters

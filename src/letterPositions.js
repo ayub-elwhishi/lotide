@@ -1,8 +1,5 @@
-const assertEqual = require('./assertEqual.js');
-
 const letterPositions = function(sentence) {
   const results = {};
-  // logic to update results here
   for (let i = 0; i < sentence.length; i++) {
     if (results[sentence[i]]) {
       results[sentence[i]].push(i);
@@ -13,5 +10,4 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-
-console.log(letterPositions("Hello my name is Ayub."));
+module.exports = letterPositions
