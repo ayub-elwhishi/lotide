@@ -1,12 +1,11 @@
 {
-  "name": "lotide",
+  "name": "@buyayub/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project was created and published by me as part of my learnings at Lighthouse Labs. BEWARE: This library was published for learning purposes. It is not intended for use in production-grade software.",
   "main": "index.js",
-  "dependencies": {
-    "chai": "^4.3.7"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "chai": "^4.3.7",
     "mocha": "^9.2.2"
   },
   "scripts": {
@@ -16,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/ayub-elwhishi/lotide.git"
   },
-  "author": "",
+  "author": "Ayub Elwhishi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ayub-elwhishi/lotide/issues"
