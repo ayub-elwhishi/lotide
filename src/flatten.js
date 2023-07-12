@@ -1,4 +1,4 @@
-function flatten(arr) {
+let flatten = function(arr) {
   let final = [];
   for (const i of arr) {
     if (Array.isArray(i)) {
@@ -10,6 +10,6 @@ function flatten(arr) {
     }
   }
   return final;
-}
+};
 
-module.exports = flatten
+module.exports = flatten;

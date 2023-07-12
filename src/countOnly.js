@@ -1,5 +1,3 @@
-const assertEqual = require('./assertEqual.js');
-
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count
 const countOnly = function(allItems, itemsToCount) {
@@ -10,7 +8,7 @@ const countOnly = function(allItems, itemsToCount) {
 	}
 	*/
 
-  for (item of allItems) {
+  for (const item of allItems) {
     if (itemsToCount[item]) {
       if (result[item]) {
         result[item] += 1;
@@ -23,4 +21,4 @@ const countOnly = function(allItems, itemsToCount) {
   return result;
 };
 
-module.exports = countOnly
+module.exports = countOnly;
